@@ -3,5 +3,6 @@ def run_guessing_game
   
   user_input = gets.chomp
   while user_input != random
-    puts 
+    puts "Sorry! The computer guessed #{random}."
+  end
 end
